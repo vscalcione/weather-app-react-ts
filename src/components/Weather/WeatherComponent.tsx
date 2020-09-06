@@ -20,7 +20,7 @@ const Weather = (props: any) => {
         {/* Weather description */}
         <h4 className="py-3">
           {props.description.charAt(0).toUpperCase() +
-            props.desciprtion.slice(1)}
+            props.description.slice(1)}
         </h4>
       </div>
     </div>
